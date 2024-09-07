@@ -1,0 +1,260 @@
+.header{
+    width: 80%;
+
+    margin: 0 auto;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-image{
+    width: 32px;
+    height: 32px;
+    padding-top: 1%;
+}
+.header-menu{
+    color: #AB4807;
+}
+.header-referens{
+    color: #AB4807;
+    text-decoration: none;
+}
+
+.intro{
+    background-color: #FF9D2B;
+}
+.intro-text {
+    width: 80%;
+
+    margin: 0 auto;
+    padding-bottom: 15px;
+
+    color: white;
+}
+.intro-header{
+    padding-top: 20px;
+    text-align: left;
+}
+
+.slogan{
+    width: 40%;
+    padding-top: 10px;
+}
+
+.small-slogan{
+    text-align: left;
+}
+
+.know-more{
+    width: 130px;
+    height: 30px;
+
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    border: 0 transparent;
+    background-color: whitesmoke;
+
+    color: #FF9D2B;
+}
+
+.header-text{
+    width: 80%;
+}
+.header-text{
+    background-color: #FF9D2B;
+    color: white;
+}
+.find{
+    height: 30px;
+
+    margin: 10px;
+
+    color: black;
+    background-color:white;
+}
+
+.empty{
+    width: 30%;
+    height: 15%;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-header-facultet, .very-small-header-facultet{
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    
+    color: #AB4807;
+}
+
+.services{
+    width: 80%;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    display: flex;  
+    justify-content: center; 
+    justify-content: space-between;
+}
+.service-plane {
+    width: 18%;
+
+    padding-bottom: 15px;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    background-color: #FF9D2B;
+    color: white;
+}
+
+h4{
+    text-align: center;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    align-items:stretch;
+}
+
+.image-students{
+    width: 350px;
+    
+    color: white;
+}
+.our-students{
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.image-our-students{
+    padding-left: 140px;
+}
+.text-our-students-header{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    color: #AB4807;
+}
+.our-students-paragraph{
+    width: 80%;
+    color: #AB4807;
+}
+.enrol{
+    width: 15%;
+    height: 10%;
+
+    margin-top: 30px;
+    margin-left: 10px;
+
+    border: 0 transparent;
+    background-color: #AB4807;
+
+    color: white;
+}
+.choice-main{
+    margin-bottom: 2%;
+}
+.choice-body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.why-choice-us {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+.why-choice-us-header{
+    color: #AB4807;
+    font-size: x-large;
+}
+.choice-header{
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+
+    color: #AB4807;
+}
+.choise-block-text {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.choise-block-information{
+    width: 300px;
+
+    color: #AB4807;
+}
+.about-our-teacher {
+    width: 100%;
+
+    display: flex;
+    justify-content:center;
+
+    background-color: #FF9D2B;
+    color: white;
+}
+
+.about-our-teacher-border{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.about-our-teacher-information {
+    width: 50%;
+}
+.about-our-teacher-header{
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+
+    font-size: 170%;
+}
+.about-our-teacher-text{
+    width: 100%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    
+    font-size: 100%;
+}
+
+.teacher-images {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.about-our-teacher-text {
+    width: 70%;
+}
+
+.teacher-image{
+    width: 128px;
+    margin: 10px;
+}
+

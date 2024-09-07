@@ -1,0 +1,199 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-us {
+    width: 100%;
+
+    background-color: #FF9D2B;
+}
+.contur{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.text{
+    width: 100%;
+    padding-left: 30px;
+}
+.about-us-header {
+    color: white;
+}
+.about-us-slogan {
+    padding-top: 20px;
+    color: white;
+}
+.image{
+   width: 50%;
+   display: flex;
+   flex-direction: row-reverse;
+}
+.about-us-image{
+    width: 60%;
+}
+/* --------------------------------- */
+.mission-and-goals {
+    margin-top: 3%;
+    display: flex;  
+    flex-direction: column;
+}
+.mission-and-goals-header {
+    margin-bottom: 50px;
+    color: #AB4807;
+    text-align: center;
+}
+.mission-and-goals-container{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mission {
+    width: 400px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-bottom: 15px;
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.mission-text {
+    width: 80%;
+    color: #AB4807;
+}
+.goals {
+    width: 400px;
+    height: 120px;
+
+    padding-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.goals-text {
+    width: 80%;
+    color: #AB4807;
+}
+.mission-and-goals-image{
+    width: 32%;
+}
+
+/* ------------------------- */
+
+.history-of-academy {
+    width: 100%;
+    margin-top: 3%;
+}
+.history-of-academy-text{
+    padding-left: 30px;
+}
+.history-of-academy-header {
+    padding-bottom: 20px;
+    color: #AB4807;
+    text-align: center;
+}
+.history-of-academy-container{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+}
+.history-of-academy-small-text {
+    width: 80%;
+    color: #AB4807;
+    font-size: 21px;
+}
+.history-of-academy-image{
+    width: 100%;
+    display: flex;
+}
+.academy-image {
+    width: 90%;
+}
+/* ------------------------------ */
+
+.contact-info {
+    margin-top: 3%;
+
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: #AB4807;
+}
+.contact-info-header {
+    width: 24%;
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.contact-info-text {
+    width: 69%;
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.footer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #FF9D2B;
+    color: white;
+}
+.footer-border{
+    height: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.footer-header{
+    text-align: center;
+}
+.footer-text{
+    text-align: center;
+}
+.social-network {
+    display: flex;
+    align-items: center;
+}
+.social-network-container {
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.networks {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.container-contacts{
+    width: 40%;
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+}
+.networks-image{
+    width: 60%;
+}
+.container-contacts-text{
+    width: 60%;
+    color: #AB4807;
+}
+
+.references{
+   color: white;
+   text-decoration: none;
+}
+
+.telephone{
+    width: 15%;
+}
