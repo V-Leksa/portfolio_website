@@ -1,0 +1,665 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.site{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.line-header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-menu{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-menu__item{
+    width: 80px;
+    padding: 10px 0;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    text-align: center;
+
+    transition: ease 0.2s;
+}
+.navigation-menu:hover{
+    padding: 17px 0 3px 0;
+}
+.navigation-menu__item:hover>.information-contact{
+    display: flex;
+    flex-direction: column;
+}
+.information-contact {
+    width: 320px;
+    margin-top: 30px;
+    padding-top: 10px;
+
+    display: none;
+    position: absolute;
+
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 5px black;
+    transform: translate(-120px, -8px);
+}
+/* ___________________ */
+
+.contact-header{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-contact{
+    font-size: 35px;
+}
+.mail-and-telephone{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header-info{
+    text-align: left;
+}
+
+.telephone-number {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px blueviolet;
+    border-radius: 10px;
+}
+.mail{
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px blueviolet;
+    border-radius: 10px;
+}
+.description-info{
+    font-size: 30px;
+    text-align: left;
+}
+
+.footer-contact{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.github {
+    padding: 20px;
+    box-shadow: 3px 3px 5px blueviolet;
+    border-radius: 10px;
+    text-align: left;
+}
+.github__header {
+    font-size: 20px;
+    text-align: left;
+}
+.github__text{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.telephone-number:hover, .mail:hover, .github:hover{
+    background-color: rgb(200, 160, 238);
+}
+/* ______________________ */
+.logo-with-text{
+    width: 40%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    min-width: 160px;
+}
+nav{
+    width: 30%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information-references{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width:40%;
+}
+
+.slogan {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: #C1FFB6;
+}
+
+.slogan__header{
+    width: 45%;
+
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    
+    font-size: 70px;
+    color: blueviolet;
+}
+.image-for-site{
+   width: 45%;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.about-me {
+    width: 80%;
+   
+    margin: 0 auto;
+    margin-top: 150px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+.about-me__presentation {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.about-me-image {
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.about-me__description {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-me-text {
+    width: 100%;
+}
+.projects {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.projects__header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+.presentasion-header{
+    text-align: center;
+}
+.presentasion-header-other{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.projects__item {
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.other-projects__item{
+    width: 60%;
+    
+    padding: 5px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.plate {
+    width: 17%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px blueviolet;
+}
+.plate-other {
+    width: 17%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px blueviolet;
+}
+
+.plate__description{
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-wrap: wrap;
+}
+.plate__description__other{
+    width: 90%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-wrap: wrap;
+    font-size: 15px;
+}
+.plate:hover{
+    width: 17.5%;
+    min-width: 205px;
+    background-color: rgb(191, 127, 250);
+    color: white;
+}
+.plate-other:hover{
+    width: 17.5%;
+    min-width: 205px;
+    background-color: rgb(191, 127, 250);
+    color: white;
+}
+.plate__header{
+    font-size: 15px;
+   
+    display: flex;
+    align-items: center;
+   
+    text-align: left;
+}
+.image-project {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.description{
+    text-align: left;
+    font-size: 15px;
+}
+.plate__references{
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.plate__references__text{
+    text-decoration: none;
+    color: black;
+}
+.plate__references__text:hover{
+    color: white;
+}
+.other-projects{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FCE5FF;
+    border-radius: 10px;
+}
+footer{
+    padding-top: 80px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    justify-content: center;
+}
+
+@media (max-width:992px){
+    .slogan__header{
+        font-size: 40px;
+        text-align: center;
+    }
+    .line-header{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .information-contact {
+        transform: translate(-120px, -9px);
+    }
+}
+
+@media (max-width:768px){
+    .logo{
+        min-width: 150px;
+    }
+    .header-slogan{
+        
+        font-size: 15px;
+    }
+    .logo-with-text{
+        width: 250px;
+    }
+    .slogan {
+        flex-direction: column;
+        padding: 0;
+    }
+    .slogan__header {
+        min-width: 430px;
+        
+        padding-top: 20px;
+
+        font-size: 27px;
+    }
+    .image-for-site{
+        width: 55%;
+
+    }
+
+    .line-header{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .navigation-menu{
+        min-width: 200px;
+    }
+    .information-references{
+        font-size: 15px;
+    }
+    
+    /* ___________________________ */
+
+    .information-contact {
+        width: 230px;
+        
+        margin-top: 30px;
+        padding-top: 5px;
+
+        transform: translate(-80px, -9px);
+    }
+    .contact-header {
+        width: 85%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+        align-items: center;
+    }
+    .header-contact {
+        font-size: 15px;
+    }
+    .mail-and-telephone{
+        width: 90%;
+    }
+    .footer-contact{
+        width: 90%;
+    }
+    .description-info {
+        font-size: 15px;
+    }
+    .telephone-number{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .mail{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .footer-contact{
+        padding-bottom: 20px;
+    }
+    
+    .github{
+        padding: 10px;
+    }
+    
+    .github__header {
+        font-size: 10px;
+    }
+
+    /* ------------------------------ */
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me__presentation {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-me-image {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    .about-me__description {
+        padding-left: 7px;
+    }
+    .about-me-text{
+        width: 100%;
+    }
+    .about-me-header{
+        min-width: 350px;
+        padding-left: 9px;
+    }
+    .about-me-text__description{
+        min-width: 600px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+        justify-content: center;
+        
+        text-wrap: wrap;
+    }
+    /* _____________________ */
+
+    .projects__item{
+        min-width: 350px;
+        /* padding: 0; */
+        justify-content: space-between;
+        text-align: center;
+    }
+    /* ____________________ */
+    
+    .other-projects__item{
+        min-width: 300px;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .plate-other{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width:575px){
+    .logo{
+        min-width: 120px;
+    }
+    .header-slogan{
+        
+        font-size: 10px;
+    }
+    .logo-with-text{
+        width: 200px;
+    }
+    .slogan {
+        flex-direction: column;
+        padding: 0;
+    }
+    .slogan__header {
+        min-width: 400px;
+        font-size: 25px;
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .line-header{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .navigation-menu{
+        
+        min-width: 100px;
+    }
+    .information-references{
+        font-size: 10px;
+    }
+    
+    /* ___________________________ */
+
+    .information-contact {
+        width: 230px;
+        
+        margin-top: 30px;
+        padding-top: 5px;
+
+        transform: translate(-80px, -9px);
+    }
+    .contact-header {
+        width: 85%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+        align-items: center;
+    }
+    .header-contact {
+        font-size: 15px;
+    }
+    .mail-and-telephone{
+        width: 90%;
+    }
+    .footer-contact{
+        width: 90%;
+    }
+    .description-info {
+        font-size: 15px;
+    }
+    .telephone-number{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .mail{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .footer-contact{
+        padding-bottom: 20px;
+    }
+    
+    .github{
+        padding: 10px;
+    }
+    
+    .github__header {
+        font-size: 10px;
+    }
+
+    /* ------------------------------ */
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me__presentation {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-me-image {
+        width: 50%;
+        padding-left: 0;
+    }
+
+    .about-me__description {
+        padding-left: 7px;
+    }
+    .about-me-text{
+        width: 100%;
+    }
+    .about-me-header{
+        min-width: 250px;
+        padding-left: 9px;
+    }
+    .about-me-text__description{
+        min-width: 430px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 5px;
+        justify-content: center;
+        
+        text-wrap: wrap;
+    }
+    /* _____________________ */
+
+    .projects__item{
+        min-width: 350px;
+    
+        justify-content: space-between;
+        text-align: center;
+    }
+    /* ____________________ */
+    
+    
+    .other-projects__item{
+       min-width: 300px;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .plate-other{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
