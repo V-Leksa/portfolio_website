@@ -1,0 +1,457 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.site{
+    /* height: 100%; */
+    
+    background-image: url(images/main-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    width: 100%;
+
+    margin: 10px auto;
+
+    display: flex;
+}
+
+.header-image{
+    width: 6%;
+
+    padding-left: 2%;
+    padding-top: 1.6%;
+}
+nav {
+    width: 70%;
+
+    margin: 0 10px 0 400px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #414447;
+}
+.header-text{
+    font-weight: bold;
+}
+.fruits {
+    width: 100%;
+    margin-top: 1.5%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.plate{
+    width: 620px;
+}
+h3{
+   margin-bottom:  40px;
+}
+.fruits-image {
+    width: 25%;
+    margin-left: 10%;
+}
+.fruits-text-header{
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+.fruits-text {
+    width: 35%;
+
+    margin: 0 40px;
+    margin-top: 0.5%;
+
+    color: #414447;
+
+    text-align: center;
+    font-size: 85%;
+}
+.text{
+    font-size: 80%;
+}
+.red-button{
+    height: 50px;
+    width: 190px;
+
+    margin-top: 3%;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    background-color: #F74D5E;
+    color: white;
+
+    font-size: 20px;
+}
+/* _____________________________ */
+.cards {
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 86%;
+}
+.cards-text{
+    font-size: 90%;
+}
+h2{
+    margin-bottom: 0;
+}
+.cards-image{
+    width: 60%;
+
+    margin-bottom: 4%;
+
+    display: flex;
+   
+    align-items: center;
+}
+
+.ananas {
+    width: 22%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+    background-color:#E89892;
+    color: white;
+    box-shadow: 3px 3px 5px #da928d;
+
+    text-align: center;
+}
+.fruit-container{
+    height: 125px;
+    
+    margin-bottom: 7%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-fruit-2{
+    margin-top: 11%;
+}
+.granade {
+    width: 22%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+    background-color:#A9B352;
+    color: white;
+    box-shadow: 3px 3px 5px #8f9749;
+
+    text-align: center;
+}
+.grapefruits {
+    width: 22%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+    background-color: #A5C3B9;
+    color: white;
+    box-shadow: 3px 3px 5px #89a199;
+
+    text-align: center;
+}
+.mango {
+    width: 22%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    background-color: #E6C265;
+    color: white;
+    box-shadow: 3px 3px 5px #caaa5a;
+
+    text-align: center;
+}
+/* ---------------------------- */
+.position-text{
+    width: 95%;
+
+    margin: 150px auto;
+
+    text-align: center;
+}
+.position-text-header{
+    margin-bottom: 0;
+
+    color: rgb(101, 91, 245);
+
+    text-align: center;   
+}
+.position-small-text {
+    display: flex;
+    justify-content: center;
+
+    color: coral;
+
+    text-align: center;
+}
+/* ------------------ */
+.fruits-menu {
+    width: 100%;
+
+    margin-bottom: 8%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-granate-container{
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+}
+.image-granat {
+    width: 80%;
+
+    display: flex;
+}
+.right-image-1{
+    width: 70%;
+}
+.right-image-2{
+    width: 88%;
+
+    margin-bottom: 20%;
+}
+.fruits-column {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(109, 97, 97);
+
+    font-size: 75%;
+}
+.fruits-column-1 {
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 2px dotted #a9d26e;
+    border-radius: 10px;
+}
+.fruits-column-container{
+    width: 100%;
+
+    margin-bottom: 3%;
+
+    border-radius: 10px;
+
+    background-color: #f3e5dc;
+}
+.fruits-column-container:hover{
+    background-color: plum;
+    color: white;
+    font-size: 17px;
+
+}
+.fruits-column-1-header{
+    width: 70%;
+
+    margin-bottom: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+}
+.fruits-menu-header{
+    text-align: center;
+}
+.fruits-menu-small-image {
+    width: 25%;
+}
+.fruits-menu-small-image-left{
+ width: 30%;
+}
+.fruits-menu-small-image-left-2{
+    width: 20%;
+}
+
+.fruits-image-2{
+    width: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+.empty{
+    display: flex;
+    justify-content: flex-end;
+}
+/* __________________________ */
+
+.fruits-buy-cards-container {
+    width: 100%;
+    height: 25%;
+
+    min-width: 100%;
+
+    margin-bottom: 2.5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    font-size: 13px;
+}
+.fruits-buy-cards-container-text{
+    margin-top: 0;
+    padding-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 27%;
+    height: 330px;
+
+    min-width: 350px;
+    min-height: 330px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    border: 1px solid #97CC51;
+    border-radius: 10px;
+    
+    text-align: center;
+    text-wrap: wrap;
+    background-color: white;
+
+    box-shadow: 5px 5px 8px #628831;
+}
+.container:hover{
+    background-color: rgb(195, 226, 133);
+    color: brown;
+}
+.container-header{
+    width: 100%;
+    height: 10%;
+
+    margin-top: 3%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.fruits-buy-cards{
+    width: 40px;
+    height: 40px;
+
+    padding-left: 15px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.short-header{
+    padding-right: 15px;
+
+    font-weight: normal;
+}
+.fruits-buy-cards-bold-text {
+    margin: 0;
+
+    font-weight: bold;
+    text-align: left;
+}
+.description-text{
+    width: 90%;
+
+    margin: 0;
+    margin-bottom: 2%;
+    
+    text-align: left;
+}
+.green-button {
+    width: 50%;
+    height: 15%;
+
+    margin-bottom: 4%;
+    
+    border: solid transparent;
+    border-radius: 5px;
+
+    background-color: #97CC51;
+    color: white;
+
+    font-size: 13px;
+}
+.green-button-2 {
+    width: 50%;
+    height: 15%;
+
+    margin-bottom: 4%;
+    margin-top: 5%;
+    
+    border: solid transparent;
+    border-radius: 5px;
+
+    background-color: #97CC51;
+    color: white;
+
+    font-size: 13px;
+}
+.green-button-3 {
+    width: 50%;
+    height: 15%;
+
+    margin-bottom: 10%;
+    
+    border: solid transparent;
+    border-radius: 5px;
+
+    background-color: #97CC51;
+    color: white;
+
+    font-size: 13px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    background-color: #f3e5dc;
+     text-align: center;
+}
+
+
+

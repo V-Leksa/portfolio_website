@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+    background-image: url(Изображения/landscape-lights-mountains-sunset-sea-bay-21389-wallhere.com.png);
+    
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+    display: flex;
+    flex-direction: column;
+    
+    border-bottom: white;
+}
+.banner-header{
+    width: 94%;
+
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.103);
+}
+.lights{
+    height: 100%;
+    position: absolute;
+    left: 5%;
+}
+
+.navigation {
+    width: 50%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.banner-logo__logo{
+    width: 70%;
+}
+.navigation__text {
+    color: white;
+}
+.contacts {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts__search-image {
+    width: 25px;
+    height: 25px;
+}
+.contacts__airplane-icon {
+    width: 25px;
+    height: 25px;
+}
+.contacts__number{
+    padding: 0.5px 3px;
+    position: relative;
+    right: 20px;
+    top: 9px;
+    border-radius: 50px;
+    color: white;
+    background-color:  #4BA448;
+    text-align: center;
+}
+
+.contacts-information__text {
+    color: white;
+}
+.slogan-with-button{
+    margin-top: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word-with-color{
+    color: #EEC044;
+}
+.motivational-slogan {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.motivational-slogan__text{
+    width: 40%;
+    padding-top:130px;
+
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+.transition-button{
+    width: 10%;
+    height: 50px;
+    margin-bottom: 2%;
+
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background-color: #74B472;
+    color: white;
+    font-size: large;
+}
+/* ____________________________ */
+
+.information-about-operator {
+    background-image: url(Изображения/pngegg.png);
+    height: 100%;
+    width: 100%;
+
+    
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat; 
+}
+.tourism{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.text-acquaintance {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+.text-acquaintance__header {
+    line-height: 1.3;
+}
+.header-about-lider{
+    padding-bottom: 15px;
+    font-size: 50px;
+    line-height: 1.2;
+}
+.phrase-with-color {
+    color: #EEC044;
+    font-size:x-large;
+}
+.information-about-operator__text {
+    width: 95%;
+    padding-bottom: 20px;
+    color: #b7b9b9;
+    font-size: larger;
+}
+.information-about-tourism {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information-for-tourists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+.text{
+    height: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information-about-tourism__header {
+    color: #74B472;
+}
+.information-about-tourism__text {
+    width: 52%;
+    color: #C8CCCB;
+}
+.image-island {
+    width: 25%;
+    
+    display: flex;
+    
+    border-radius: 5px;
+}
+.know-more-button{
+    width: 30%;
+    height: 50px;
+
+    margin-top: 5%;
+    
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background-color: #74B472;
+    color: white;
+    font-size: large;
+}
+
+.picture-travell {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.image-paris {
+    width: 50%;
+}
+.image-paris__image-tower{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 60px;
+}
+.image-tourist-and-world-map {
+    width: 50%;
+}
+.image-tourist {
+    height: 70%;
+    width: 90%;
+    border-top-left-radius: 60px;
+}
+.world-map {
+    height: 25%;
+    width: 85%;
+    background-image: url(Изображения/world-image.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.world-map__text-about-airline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    color: #74B472;
+    font-size:13px;
+}
+.text-with-size {
+    color: black;
+    font-size: 70px;
+}
+/* _________________________ */
+.our-services {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(Изображения/Услуги_фоновое-изображение.png);
+    background-size: cover;
+    background-repeat: round;
+    background-color: #F8F7F0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.our-services-header {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.our-services-header__our-services-text {
+    font-size: x-large;
+}
+.our-services-header__header-services {
+    font-size: 35px;
+}
+.our-services-description {
+    width: 80%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comfort-service {
+    width: 30%;
+    border-radius: 3%;
+    background-color: white;
+    box-shadow: 3px 3px 5px gray;
+}
+.comfort-service__image {
+    width: 100%;
+}
+.comfort-service-description{
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 5px;
+   padding-bottom: 20px;
+}
+
+.comfort-service-description__text {
+    color: #C8CCCB;
+    text-wrap: wrap;
+}
+/* _________________________ */
+.contacts-for-call {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-us{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.answers-to-question {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.operator-image{
+    width: 40%;
+}
+.answers-image {
+    width: 75%;
+    border-radius: 8px;
+}
+.call-in-any-time{
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:66px;
+    left: 55px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2C3257;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.call-in-any-time__number{
+    font-size: 20px;
+}
+.contact-information {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.contact-text__answers-to-question-header {
+    /* margin-bottom: 5px; */
+    padding-bottom: 20px;
+    font-size: 45px;
+    line-height: 0.9;
+}
+.contact-text__answers-to-question-text{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    
+    background-color: #F8F7F0;
+    font-weight: bold;
+}
+.contact-text__answers-to-question-text-call{
+    padding: 15px;
+    margin-top: 6px;
+    border-radius: 6px;
+    
+    background-color: #F8F7F0;
+    font-weight: bold;
+}
+.contact-text__answers-to-question-text-link{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    
+    background-color: #F8F7F0;
+    font-weight: bold;
+}
+.social-network-image {
+    width: 100%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-network-image__icon-network {
+    width: 13%;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: #2C3257;
+}
+.about-state {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.about-state-header {
+    width: 50%;
+}
+.answers-to-question-header{
+    font-size: 45px;
+}
+.about-state-text {
+    width: 90%;
+}
+.about-state-text__descrition{
+    color: #C8CCCB;
+    text-wrap: wrap;
+    font-size: 20px;
+}
+/* __________________________ specialists */
+
+.our-specialists {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F7F0;
+}
+.presentation-text{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-specialists-text {
+    font-size: x-large;
+    text-align: center;
+}
+.our-specialists-header {
+    font-size: xx-large;
+}
+.our-specialists-information {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.our-specialists-description {
+    width: 18%;
+}
+.specialist-image {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px gray;
+}
+.specialist-image-manager {
+    width: 98%;
+    height: 73%;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px gray;
+}
+.information-plate{
+    width: 80%;
+    height: 12%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 20px;
+    left: 65px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+    box-shadow: -2px 2px 3px 1px gray;
+    
+    background-color: white;
+    text-align: right;
+    line-height: 1.1;
+}
+
+.position-specialist {
+    color: #b7b9b9;
+}
+/* _________________________ */
+.footer-information{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #24231D;
+}
+.footer-information-for-link{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-and-navigation {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-and-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    color: #C8CCCB;
+}
+.footer-logo{
+    width: 50%;
+}
+.footer-text {
+    width: 100%;
+    text-wrap: wrap;
+}
+.footer-social-network-image {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-icon-network {
+    width: 30px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: #2C3257;
+}
+.navigation-list {
+    width: 60%;
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-navigation {
+    color: white;
+}
+.footer-navigation__item {
+    list-style: none;
+    
+    color: #C8CCCB;
+}
+.navigation-image{
+    width: 10px;
+    padding-right: 8px;
+}
+/* _______ */
+
+.news-and-contacts {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-news {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-header {
+    color: white;
+}
+.footer-header-contacts{
+    color: white;
+    padding-top: 5px;
+}
+.footer-news-text {
+    color: white;
+}
+
+.footer-contacts {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.6;
+    font-style: normal;
+}
+.footer-contacts__header{
+    padding-top: 5px;
+    color: white;
+}
+.footer-contacts__text {
+    color: #C8CCCB;
+}
+.footer-contacts-icon {
+    width: 15px;
+    padding-right: 8px;
+}
+.input-form{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+.input-icon{
+    width: 20%;
+    background-color: #2C3257;
+    position: relative;
+    bottom: 43px;
+    left: 182px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* _______________________________ */
+.protection-rights {
+    width: 100%;
+    text-align: center;
+    background-color: #1F1E17;
+}
+.protection-rights__text {
+    padding: 20px;
+    color: #C8CCCB;
+}
+
+
