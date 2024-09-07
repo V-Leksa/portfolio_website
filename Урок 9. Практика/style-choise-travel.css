@@ -1,0 +1,181 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #FAEB64;
+}
+
+.logo-image{
+    width: 40px;
+    padding-top: 3px;
+}
+.menu {
+    padding-top: 7px;
+    padding-right: 4px;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #E6FFE0;
+}
+.information-text {
+    width: 70%;
+
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.text-header{
+    font-size: 50px;
+    color: #AD3209;
+}
+.text{
+    width: 90%;
+    
+    color: #AD3209;
+    font-size: 20px;
+}
+.small-text{
+    width: 90%;
+
+    padding-top: 20px;
+
+    font-size: 20px;
+
+    color: #AD3209
+}
+.picture-travel {
+    width: 40%;
+    margin-top: 10px;
+}
+/* __________________________________ */
+.country {
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    background-color: #FAEB64;
+    
+}
+.container-1 {
+    width: 22%;
+    height: 60%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    box-sizing: border-box;
+    position: relative;
+    top: 5%;
+
+    background-color: white;
+}
+h3{
+    width: 90%;
+
+    margin-top: 5px;
+
+    color: #AD3209;
+
+    font-size: 16px;
+}
+.information-about-country{
+    color: #AD3209;
+    font-size: 13px;
+}
+.small-slogan-1{
+    width: 147px;
+    color: #AD3209;
+    font-size: 13px;
+}
+.small-slogan-2{
+    width: 140px;
+    color: #AD3209;
+    font-size: 13px;
+}
+.small-slogan-3{
+    width: 138px;
+    color: #AD3209;
+    font-size: 13px;
+}
+.small-slogan-4{
+    width: 170px;
+    color: #AD3209;
+    font-size: 13px;
+}
+.container-2 {
+    width: 22%;
+    height: 60%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    box-sizing: border-box;
+    position: relative;
+    top: 37%;
+
+    background-color: white;
+}
+.container-3 {
+    width: 22%;
+    height: 60%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    box-sizing: border-box;
+    position: relative;
+    top: 15%;
+
+    background-color: white;
+}
+.container-4 {
+    width: 22%;
+    height: 60%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+    position: relative;
+    top: 37%;
+
+    background-color: white;
+}
+
+.image-italy{
+    width: 40%;
+
+    position: relative;
+    left: 60%;
+    bottom: 80px;
+}
+.image-africa{
+    width: 70%;
+
+    position: relative;
+    left: 40%;
+    bottom: 130px;
+}
+.image-china{
+    width: 60%;
+
+    position: relative;
+    bottom: 10px;
+    left: 42%;
+    bottom: 80px;
+}
+.image-japan{
+    width: 50%;
+
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+    bottom: 90px;
+}
