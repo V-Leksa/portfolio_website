@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: serif;
+}
+header{
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header-with-logo{
+    padding-top: 10px;
+    padding-bottom: 7px;
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+   border-bottom: 2px solid black;
+}
+.header__text {
+    font-size: 30px;
+}
+.logo {
+    width: 40px;
+}
+nav{
+    display: flex;
+    
+}
+.navigation-container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-container__text{
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-info{
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    background-color: #F0F0F0;
+    
+    text-align: center;
+}
+.banner-info__header {
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+.banner{
+    width: 100%;
+    background-color: #F6D8CD;
+}
+
+.banner-image{
+    width: 100%;
+}
+/* ___________________ */
+
+.about-bakery {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #F6D8CD;
+}
+.text-about-bakery {
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    text-align: center;
+}
+.text-about-bakery__header {
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.text-about-bakery__text {
+    padding-bottom: 10px;
+}
+.bread-products {
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.plate {
+    width: 23%;
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.plate__icon {
+    width: 30px;
+
+    padding-bottom: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plate__header {
+    padding-bottom: 25px;
+
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: normal;
+}
+.plate__text {
+    text-wrap: wrap;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* _______________________ */
+.opening-hours {
+    padding-bottom: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #F0F0F0;
+}
+.baker-image {
+    width: 40%;
+
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.work-information {
+    text-align: center;
+}
+.work-information__header {
+    padding-bottom: 10px;
+
+    font-size: 25px;
+    font-weight: normal;
+}
+.work-information__text {
+    font-size: 20px;
+}
+.work-information__text-time{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.work-information__contact-button {
+    width: 100px;
+    height: 35px;
+
+    border: 2px solid black;
+
+    background-color: black;
+    color: #EDEDED;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ______________________ */
+
+.quality-assurance {
+    padding-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F0F0F0;
+}
+.quality-assurance-image {
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+}
+.ready-made-pastries {
+    width: 60%;
+    box-shadow: -15px 15px 0px 2px black;
+}
+.about-guarantee {
+    width: 40%;
+
+    text-align: center;
+    line-height: 1.3;
+}
+.about-guarantee__header {
+    width: 70%;
+
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.about-guarantee__slogan {
+    width: 70%;
+
+    text-align: center;
+    line-height: 1.8;
+    font-weight: normal;
+}
+.about-guarantee__text {
+    width: 70%;
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* _____________________ */
+.bakery-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 2.3;
+}
+.footer-text-header{
+    font-size: x-large;
+}
+.footer-text-mail{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
